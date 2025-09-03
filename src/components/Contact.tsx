@@ -1,55 +1,28 @@
-import { Button } from "../components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
-import { Input } from "../components/ui/input";
-import { Textarea } from "../components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+// import { Button } from "../components/ui/button";
+// import { Card} from "../components/ui/card";
+// import { Input } from "../components/ui/input";
+// import { Textarea } from "../components/ui/textarea";
+// import { Mail, MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
     <section className="py-20 px-6 bg-gradient-secondary">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        {/* <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 bg-gradient-primary bg-clip-text text-transparent">
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to bring your ideas to life? Let's discuss your next project
           </p>
-        </div>
+        </div> */}
         
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <Card className="bg-card/50 backdrop-blur-sm border-border/50">
-            <CardHeader>
-              <CardTitle className="text-2xl">Send a Message</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <Input placeholder="Your Name" className="bg-background/50" />
-                </div>
-                <div>
-                  <Input placeholder="Your Email" type="email" className="bg-background/50" />
-                </div>
-              </div>
-              <div>
-                <Input placeholder="Subject" className="bg-background/50" />
-              </div>
-              <div>
-                <Textarea 
-                  placeholder="Your Message" 
-                  rows={6} 
-                  className="bg-background/50 resize-none"
-                />
-              </div>
-              <Button className="w-full bg-gradient-primary hover:shadow-glow-primary transition-all duration-300">
-                Send Message
-              </Button>
-            </CardContent>
-          </Card>
+          
           
           {/* Contact Info */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
@@ -66,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">your.email@example.com</p>
+                    <p className="text-muted-foreground">shankari.developer@gmail.com</p>
                   </div>
                 </div>
               </Card>
@@ -95,7 +68,7 @@ const Contact = () => {
                 </div>
               </Card>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
